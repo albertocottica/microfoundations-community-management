@@ -16,12 +16,13 @@ inverted U-shaped for xperience (user life cycle)
 
 * the negative binomial model is computed on total activity 
 
-macro def activityVars numNodes LM l.ncommsreceivedteam  l.ncommsreceiveduser ///
-				c.l.BTW##c.l.BTW l.inDegree l.outDegree density xperience l.CC l.PR ///
+macro def activityVars numNodes l.LM l.ncommsreceivedteam  l.ncommsreceiveduser ///
+				c.l.BTW##c.l.BTW inDegree l.outDegree density l.CC l.PR ///
 				c.xperience##c.xperience TotTeamActivity NotMeActivity 
 
 xtnbreg activity $activityVars if mod != 1, fe
-outreg2 using "/Users/albertocottica/github/local/microfoundations-community-management/results/test", stats(coef se pval)  excel dec(3) ctitle (Edgeryders) replace
-
+outreg2 using "/Users/albertocottica/github/local/microfoundations-community-management/results/estimation", stats(coef se pval)  excel dec(3) ctitle (neg binomial) replace
+xtlogit activity $activityVars if mod !=1, fe
+outreg2 using "/Users/albertocottica/github/local/microfoundations-community-management/results/estimation", stats(coef se pval) excel dec(3) ctitle (logit)
 
 				
