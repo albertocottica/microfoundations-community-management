@@ -1,0 +1,26 @@
+[2015-11-01 13:05:35] root         INFO     parsing files /Users/albertocottica/github/local/microfoundations-community-management/data/from jsonviews/edgesense_users_20151007_1107.json nodes.json comments.json
+[2015-11-01 13:05:35] root         INFO     Network processing - started
+[2015-11-02 14:08:26] root         INFO     parsing files /Users/albertocottica/github/local/microfoundations-community-management/data/from jsonviews/edgesense_users_20151007_1107.json /Users/albertocottica/github/local/microfoundations-community-management/data/from jsonviews/edgesense_nodes_20151007_1108.json /Users/albertocottica/github/local/microfoundations-community-management/data/from jsonviews/edgesense_comments_20151007_1108.json
+[2015-11-02 14:08:26] root         INFO     Network processing - started
+[2015-11-02 14:08:26] root         INFO     file loaded
+[2015-11-02 14:08:26] root         INFO     nodes collected
+[2015-11-02 14:08:26] root         INFO     posts collected
+[2015-11-02 14:08:26] root         INFO     17328 valid comments on 18285 total
+[2015-11-02 14:08:26] root         INFO     0 multiauthor posts on 4062 total
+[2015-11-02 14:08:26] root         INFO     inactive nodes: 2118
+[2015-11-02 14:08:27] root         INFO     network built
+[2015-11-02 14:38:32] root         INFO     network metrics done
+[2015-11-02 14:38:43] root         INFO     network dumped
+[2015-11-02 14:38:43] root         INFO     Completed
+[2015-11-02 16:48:28] root         INFO     parsing files /Users/albertocottica/github/local/microfoundations-community-management/data/from jsonviews/edgesense_users_20151007_1107.json /Users/albertocottica/github/local/microfoundations-community-management/data/from jsonviews/edgesense_nodes_20151007_1108.json /Users/albertocottica/github/local/microfoundations-community-management/data/from jsonviews/edgesense_comments_20151007_1108.json
+[2015-11-02 16:48:28] root         INFO     Network processing - started
+[2015-11-02 16:48:28] root         INFO     file loaded
+[2015-11-02 16:48:28] root         INFO     nodes collected
+[2015-11-02 16:48:28] root         INFO     posts collected
+[2015-11-02 16:48:29] root         INFO     17328 valid comments on 18285 total
+[2015-11-02 16:48:29] root         INFO     0 multiauthor posts on 4062 total
+[2015-11-02 16:48:29] root         INFO     inactive nodes: 2118
+[2015-11-02 16:48:29] root         INFO     network built
+[2015-11-02 17:20:36] root         INFO     network metrics done
+[2015-11-02 17:20:49] root         INFO     network dumped
+[2015-11-02 17:20:49] root         INFO     Completed

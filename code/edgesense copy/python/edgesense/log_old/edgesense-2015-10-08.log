@@ -1,0 +1,34 @@
+[2015-10-08 16:05:46] root         INFO     parsing files /Users/albertocottica/Documents/More nodes.json comments.json
+[2015-10-08 16:05:46] root         INFO     Network processing - started
+[2015-10-08 16:06:57] root         INFO     parsing files /Users/albertocottica/Documents/More nodes.json comments.json
+[2015-10-08 16:06:57] root         INFO     Network processing - started
+[2015-10-08 16:07:23] root         INFO     parsing files /Users/albertocottica/Documents/More nodes.json comments.json
+[2015-10-08 16:07:23] root         INFO     Network processing - started
+[2015-10-08 16:09:01] root         INFO     parsing files /Users/albertocottica/Documents/More nodes.json comments.json
+[2015-10-08 16:09:01] root         INFO     Network processing - started
+[2015-10-08 16:09:46] root         INFO     parsing files /Users/albertocottica/Documents/More nodes.json comments.json
+[2015-10-08 16:09:46] root         INFO     Network processing - started
+[2015-10-08 16:14:52] root         INFO     parsing files /Users/albertocottica/Documents/More PhD stuff/MyPhDdata/Thesis Paper 2/Paper 2 data/edgeryders_20151007/edgesense_users_20151007_1107.json /Users/albertocottica/Documents/More PhD stuff/MyPhDdata/Thesis Paper 2/Paper 2 data/edgeryders_20151007/edgesense_nodes_20151007_1108.json /Users/albertocottica/Documents/More PhD stuff/MyPhDdata/Thesis Paper 2/Paper 2 data/edgeryders_20151007/edgesense_comments_20151007_1108.json
+[2015-10-08 16:14:52] root         INFO     Network processing - started
+[2015-10-08 16:14:52] root         INFO     file loaded
+[2015-10-08 16:14:52] root         INFO     nodes collected
+[2015-10-08 16:14:52] root         INFO     posts collected
+[2015-10-08 16:14:53] root         INFO     17328 valid comments on 18285 total
+[2015-10-08 16:14:53] root         INFO     0 multiauthor posts on 4062 total
+[2015-10-08 16:14:53] root         INFO     inactive nodes: 2118
+[2015-10-08 16:14:53] root         INFO     network built
+[2015-10-08 16:46:48] root         INFO     network metrics done
+[2015-10-08 16:46:58] root         INFO     network dumped
+[2015-10-08 16:46:58] root         INFO     Completed
+[2015-10-08 18:35:05] root         INFO     parsing files /Users/albertocottica/Documents/More PhD stuff/MyPhDdata/Thesis Paper 2/Paper 2 data/edgeryders_20151007/edgesense_users_20151007_1107.json /Users/albertocottica/Documents/More PhD stuff/MyPhDdata/Thesis Paper 2/Paper 2 data/edgeryders_20151007/edgesense_nodes_20151007_1108.json /Users/albertocottica/Documents/More PhD stuff/MyPhDdata/Thesis Paper 2/Paper 2 data/edgeryders_20151007/edgesense_comments_20151007_1108.json
+[2015-10-08 18:35:05] root         INFO     Network processing - started
+[2015-10-08 18:35:06] root         INFO     file loaded
+[2015-10-08 18:35:06] root         INFO     nodes collected
+[2015-10-08 18:35:06] root         INFO     posts collected
+[2015-10-08 18:35:06] root         INFO     17328 valid comments on 18285 total
+[2015-10-08 18:35:06] root         INFO     0 multiauthor posts on 4062 total
+[2015-10-08 18:35:06] root         INFO     inactive nodes: 2118
+[2015-10-08 18:35:06] root         INFO     network built
+[2015-10-08 19:08:41] root         INFO     network metrics done
+[2015-10-08 19:08:53] root         INFO     network dumped
+[2015-10-08 19:08:53] root         INFO     Completed
