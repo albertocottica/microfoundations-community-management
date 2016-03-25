@@ -1,0 +1,239 @@
+\section{Results}
+
+\subsection{Hypotheses}
+
+We wish to test the following hypotheses.
+
+\newtheorem{policyWorks}{Hypothesis}
+
+\begin{policyWorks}
+	The number of comments a user receives from community managers has no influence on her probability to be active.
+	\label{hypothesis:policyWorks}
+\end{policyWorks}
+
+The organisations running online communities wish for their users to do certain things, most of which imply being active in the community itself: writing posts and comments. They cannot order them to do so, since users are not on the payroll and remain unanswerable to those organisations. Online community managers are then tasked to prompt users into action without using either monetary incentives or command power. That leaves interaction as the main tool online community managers have at their disposal. Rejecting Hypothesis \ref{hypothesis:policyWorks} would imply that users do, in fact, respond to cues from online community managers.
+
+We expect Hypothesis \ref{policyWorks} to be falsified by data. Moreover, we expect that the coefficient on the number of comments received by the user from community managers, besides being statistically different from zero, is positive. Denote said coefficient by  $\beta_{cmrec}$, and the related variable by $x_{cmrec}$. Check that: 
+
+\begin{equation}
+	\frac{\partial Pr(A=1|x)}{\partial x_{cmrec}} > 0 \Rightarrow \frac{\partial LOR}{\partial x_{cmrec}} > 0
+	\label{marginalProbActive}
+\end{equation}
+
+where $LOR$ denotes the logarithm of the log-odds ratio as per equation \ref{logOddsErrors}. Since $x_{cmrec}$ enters equation \ref{eq:logOdds} linearly, equation \ref{marginalProbActive} implies that:
+
+\begin{equation}
+	\frac{\partial LOR}{\partial x_{cmrec}} > 0 \Rightarrow \beta_{cmrec} > 0 
+\end {equation}
+
+\begin{policyWorks}
+	Receiving comments from community managers has the same effect on the probability to be active than receiving comments from users that are not community managers. 
+	\label{policyWorksBetter}
+\end{policyWorks}
+
+Online community managers are professionals. They are likely to have better communication skills than the average user, and they certainly have stronger incentives to craft their interaction modes so as to drive users to being more active in the online community. We therefore expect, on average, the effect of incoming communication from online community manager to have a larger positive effect on the probability of becoming active than that of incoming communication from other users. Therefore, we expect Hypothesis \ref{policyWorksBetter} to be falsified by the data. 
+
+% maybe add a third hypothesis: that the added probability we "buy" by deploying community managers instead of ordinary users is large. Alternative: put this in the results/discussion.
+
+\subsection{Regression}
+
+Table \ref{tab:xtlogit} summarizes the estimation's results. 
+
+
+\def\onepc{$^{\ast\ast}$} \def\fivepc{$^{\ast}$}
+\def\tenpc{$^{\dag}$}
+\def\legend{\multicolumn{4}{l}{\footnotesize{Significance levels
+:\hspace{1em} $\dag$ : 10\% \hspace{1em}
+$\ast$ : 5\% \hspace{1em} $\ast\ast$ : 1\% \normalsize}}}
+\begin{table}[htbp]\centering
+\begin{tabular}{l r @{} l c }\hline\hline 
+\multicolumn{1}{c}
+{\textbf{Variable}}
+ & \multicolumn{2}{c}{\textbf{Coefficient}}  & \textbf{(Std. Err.)} \\ \hline
+number of comments received from community managers  &  1.250&\onepc  & (0.053)\\
+number of comments received from other users  &  0.215&\onepc  & (0.037)\\
+number of comments and posts written by ego (lagged)  &  0.126&\tenpc  & (0.066)\\
+weeks since creating the account  &  -0.011&\tenpc  & (0.006)\\
+total number of posts and comments written by users excluding ego  &  0.037&\onepc  & (0.004)\\
+total number of posts and comments written by community managers  &  0.001&  & (0.006)\\
+user out-degree (lagged) &  0.028&\fivepc  & (0.013)\\
+user in-degree (lagged)  &  -0.003&  & (0.013)\\
+user betweenness centrality  &  -107.870&\onepc  & (20.778)\\
+user pagerank (lagged) &  -5.592&  & (14.610)\\
+user clustering coefficient  &  -0.654&\onepc  & (0.195)\\
+network average distance  &  -4.156&\fivepc  & (2.007)\\
+network average betweenness centrality at $t-1$  &  -9.260&  & (209.212)\\
+network Louvain modularity  &  8.379&\onepc  & (2.520)\\
+number of nodes  &  -0.001&  & (0.004)\\
+number of edges  &  0.000&  & (0.001)\\
+\hline
+\end{tabular}
+ \caption{Estimation results
+\label{tab:xtlogit}}
+\end{table}
+
+
+The coefficients on the first two variables are positive and highly significant ($p < 0.001$). This supports the conventional wisdom that users of online communities tend to engage with each other: when made the object of comments, they are more likely to become active than when they are not. By implication, our Hypothesis \ref{policyWorks} cannot be rejected. 
+
+To test Hypothesis \ref{policyWorksBetter}, we start by noting that the coefficient on the number of comments received from community managers is larger than that on the number of comments received from other (non-community managers) users. We next run a Wald test on the null hypothesis that the coefficients on our first two variables are identical. The null is strongly rejected ($p < 0.0001$). This, in turn, means we have no support for Hypothesis \ref{policyWorksBetter}. 
+
+Ideally, we would like that to support the alternative hypothesis that the difference between the coefficient on the number of comments received by the user from community managers and the coefficient on the number of comments received by other (non-community managers) users be positive. Wald tests, being one-tailed, cannot do that. However, we can deduce the non-negativity of such difference from the signs and values of the estimated coefficients and our functional form in equation \ref{logOddsErrors}. Formally, denote the  coefficient on the number of comments received by other (non-community managers) users by $\beta_{urec}$, and the related variable by $x_{urec}$. Since the transformation from probability to odds is monotonic, we have:
+
+\begin{equation}
+	\frac{\partial Pr(A=1|x)}{\partial x_{cmrec}} > \frac{\partial Pr(A=1|x)}{\partial x_{urec}}  \Rightarrow \frac{\partial LOR}{\partial x_{cmrec}} > \frac{\partial LOR}{\partial x_{urec}} 
+\end{equation}
+
+Applying again equation \ref{logOddsErrors}, and remembering that both $x_{cmrec}$ and $x_{urec}$ enter it linearly, we have:
+
+\begin{equation}
+	\frac{\partial LOR}{\partial x_{cmrec}} > \frac{\partial LOR}{\partial x_{urec}}\Rightarrow \beta_{cmrec} > \beta_{urec} \Rightarrow \beta_{cmrec} - \beta_{urec} > 0
+	\label{eq:condition4WaldTest}
+\end{equation}
+
+So, the difference $\beta_{cmrec} - \beta_{urec}$ cannot be negative. Since we have strongly rejected that it be zero, it follows that it must be strictly positive. 
+
+\subsection{Marginal effects}
+
+Regression analysis shows that the activity of community managers does indeed have a positive impact on the probability that the users they engage will become active. This, however, does not tell us how large that impact is. Since online community management is costly, this is likely to be a question of some relevance to an organisation trying to make a decision to invest in it. 
+Coefficient estimates are a poor indicator of marginal effects, because the logit model we employ here is not linear. The relationship between the linear prediction (as defined by the sum of each coefficient multiplied by the regressor it refers to, and assuming the fixed effects are zero) and the probability that the dependent variable is equal to 1 follows a logistic curve (figure \ref{fig:probActivityLinPredict}). An increase in the number of comments received by community managers has a small effect for small or large values of $x\beta$. When $x\beta$ is between -5 and 5, however, the probability that the user becomes active increases quickly as community managers engage more with the user.
+
+\begin{figure}
+	\includegraphics[width=.8 \textwidth]{PrAct_linPred}
+	\caption{Predicted probability of Edgeryders users to become active as the linear prediction $x\beta$ based on number of comments received by community managers and other users increases.}
+\label{fig:probActivityLinPredict}
+\end{figure}
+
+Table \ref{table:dydx} shows a point estimate the marginal effect of comments from the two sources (online community managers vs. other users) on the probability that a user will become active. Neither is significant. This turns out to be an artefact of the computation: the size of the marginal effect is computed fixing the value of regressors at their mean. The means of the variables in question are low. In the average period, the average Edgeryders user received 0.08 comments from online community managers and 0.09 comments from other users. This is consistent with what we know about patterns of human communication, which is sparse and bursty (\cite{holme2012temporal}). 
+
+{
+\def\onepc{$^{\ast\ast}$} \def\fivepc{$^{\ast}$}
+\def\tenpc{$^{\dag}$}
+\begin{table}[htbp]\centering
+ \begin{tabular}{l c c c}\hline\hline 
+\multicolumn{1}{c}
+{\textbf{Variable}} & {\textbf{$dy/dx$}}  & \textbf{$Std. Err.$} & \textbf{$P > \lvert z \rvert$} \\ \hline
+number of comments received from community managers  &  .0000959  & .0004127 & 0.816 \\
+number of comments received from other users  &  .0000165  & .000071 & 0.816\\
+\hline
+\end{tabular}
+\caption{Marginal effects of the number of comments received by a user (both from community managers and from other users) on the probability of that user to become active. The estimates are computed under the assumption that regressors be fixed at their means. 
+\label{table:dydx}}
+\end{table}
+}
+A more intuitive approach is to estimate the elasticities of the probability of becoming active with respect to the number of comments received from each source. These are shown in table \ref{tab:elasticities}. They are both highly significant. In absolute terms, they are both small, but quite different. Receiving an extra comment by a community manager increases the probability that a user will become active by 10\%; but receiving one from another user will increase it by less than 2\%.
+
+{
+\def\onepc{$^{\ast\ast}$} \def\fivepc{$^{\ast}$}
+\def\tenpc{$^{\dag}$}
+\def\legend{\multicolumn{4}{l}{\footnotesize{Significance levels
+:\hspace{1em} $\dag$ : 10\% \hspace{1em}
+$\ast$ : 5\% \hspace{1em} $\ast\ast$ : 1\% \normalsize}}}
+\begin{table}[htbp]\centering
+ \begin{tabular}{l c c c}\hline\hline 
+\multicolumn{1}{c}
+{\textbf{Variable}} & {\textbf{$ey/ex$}}  & \textbf{$Std. Err.$} & \textbf{$P > \lvert z \rvert$} \\ \hline
+number of comments received from community managers  &  .1024245\onepc  & .0043113 & 0.000 \\
+number of comments received from other users  &  .01882\onepc  & .0032799 & 0.000\\
+\hline
+\end{tabular}\caption{Elasticities of probability that a user becomes active with respect to the number of comments received from community managers and from other users. The estimates are computed under the assumption that regressors be fixed at their means.
+\label{tab:elasticities}}
+\end{table}
+}
+
+Significant elasticities do not, per se, guarantee that the action of community managers will produce a large marginal effect in the online communities, unless the extra action (the differential increase in the regressor) is applied in a region of the distribution where the probability of the user being active is already reasonably high. We therefore turn to computing the marginal effect of the number of comments received from moderators on the probability that a user becomes active. Before we can proceed, however, we need an adjustment. In the model estimated so far, the mean of the predicted probability of a positive outcome (defined as the user
+being active in the period) does not coincide with the proportion of users actually active across the dataset (table \ref{tab:flaw}). 
+
+\begin{table}[htbp]\centering
+ \begin{tabular}{l c c c}\hline\hline 
+\multicolumn{1}{c}
+{\textbf{Variable}} & {\textbf{Obs}}  & {\textbf{Mean}} & {\textbf{Std. Dev.}} \\ \hline
+$prob$  &    84262   & .0023325  &  .0410453 \\
+$active$  &  84262 &   .0181577  &  .1335221 \\
+\hline
+\end{tabular}\caption{Descriptive statistics for the probability of users to become active as predicted by the model ($prob$) and users actually being active ($active$).
+\label{tab:flaw}}
+\end{table}
+
+This is caused by fact that the mean of the fixed effects $c_i$ in nonzero. To correct this, we need to add to the model a constant $\alpha$ such that: 
+
+\begin{equation}
+	 \frac{e^{mean(X_{i,t}\beta) + \alpha}}{1 + e^{mean(X_{i,t}\beta) + \alpha}} = \frac{\sum_{i = 1}^N \sum_{t = 1}^T active_{i,t}}{NT}
+	 \label{eq:equationAlpha}
+\end{equation}
+
+In \ref{eq:equationAlpha}, $active_{1,t}$ takes value 1 if user $i$ is active at period $t$, and 0 otherwise; the $x_{i,t}\beta$ are the ones already estimated. The corrected model's linear predictions are unbiased, allowing us to compute marginal effects correctly. The right-hand side of equation \ref{eq:equationAlpha} is identical to the mean of the variable $active$ in table \ref{tab:flaw}. Replacing the appropriate values from table \ref{tab:flaw} yields:
+
+\begin{equation}
+	\frac{e^{-9.52 + \alpha}}{1 + e^{-9.52 + \alpha}} = 0.18
+\end{equation}
+
+\begin{equation}
+	\alpha \simeq 8
+	\label{eq:valueAlpha}
+\end{equation}
+
+We can now replace \ref{eq:valueAlpha} in to \ref{eq:equationAlpha} and proceed to estimate its marginal effects. Start by noting that, differentiating the right-hand side of \ref{eq:equationAlpha} with respect to $X$ yields:
+
+\begin{equation}
+	\frac{\partial Pr(A=1|X)}{\partial X} = \beta \frac{e^{X \beta + \alpha}}{(1 + e^{X \beta + \alpha})^2} 
+\end{equation}
+
+Replace the point estimates for $\beta_{cmrec}$, $\beta_{urec}$ and $\alpha$ to yield marginal effects of receiving one additional comments from, respectively, community managers and other users on the probability of being active in the period: 
+
+\begin{equation}
+	\frac{\partial Pr(A=1|X)}{\partial x_{cmrec}} = \beta_{cmrec} \frac{e^{ \beta_{cmrec} + \alpha}}{(1 + e^{x_{cmrec} \beta_{cmrec} + \alpha})^2} 
+	\label{eq:marginal_x_cmrec}
+\end{equation}
+
+\begin{equation}
+	\frac{\partial Pr(A=1|X)}{\partial x_{urec}} = \beta_{urec} \frac{e^{ \beta_{urec} + \alpha}}{(1 + e^{x_{urec} \beta_{urec} + \alpha})^2} 
+	\label{eq:marginal_x_urec}
+\end{equation}
+
+Equations \ref{eq:marginal_x_cmrec} and \ref{eq:marginal_x_urec} allow us to "drill down" into the information contained in Table \ref{table:dydx} and study the marginal effects of receiving one additional comment after the same user has already received zero, one or more comments. To do so, we compute, for each observation and for both $x_{cmrec}$ and $x_{urec}$, the estimate of the marginal effect on the probability of the user being active. These are obtained plugging the observed regressor values, the computed value of $\alpha$ and the point estimates of the coefficient values into respectively, equations \ref{eq:marginal_x_cmrec} and \ref{eq:marginal_x_cmrec}. 
+
+Tabulating 
+
+
+
+\begin{table}[htbp]\centering
+	\label{tab:marginalProbability_wr_x_cmrec}
+	\begin{tabular}{c c | c  c  c  c | c}
+ & & \multicolumn{5}{c}{\textbf{Predicted marginal probability of user being active}} \\
+N. comments& & 0-0.1&0.1-0.2&0.2-0.3&over 0.3&Total \\
+\hline
+& prob. & .06 & .15 & .26 & .31 & .23 \\ 
+0 & SE & .02 & .03 & .03 & .00 & .07 \\
+& N & 5,748&15,303&41,028&19,566&81,645 \\
+\hline
+ & prob. & .04 & .14 & .25 & .31 & .15 \\
+1 & SE & .03 & .03 & .03 & .00 & .10 \\
+&N&438&308&362&111&1,219 \\
+\hline
+& prob. & .03 & .14 & .25 & .31 & .07 \\
+2 & SE & .03 & . 03 & .03 & .00 & .08 \\
+& N&340&91&32&6&469 \\
+\hline
+& prob. & .02 & .14 & . 25 & .31 & .04 \\
+3 & SE & .02 & .03 & .00 & .07 \\
+&N&223&8&13&2&246 \\
+\hline
+& prob. & .01 & .12 & .25 & .31 & .04 \\
+4 & SE & .02 & .01 & .03 & .00 & .07 \\
+& N & 135 & 4 & 5 & 2 & 146 \\
+\hline
+& prob. & .01 & .15 & .25 & .31 & .03 \\
+5 to 10 & SE & .02 & .03 &.03 & .00 & .08 \\
+& N&329&13&22&8&372 \\
+\hline
+& prob & .00 & .16 & .26 & .30 & .02 \\
+11 and above & SE & .01 & .03 & .04 & 0 & .05 \\
+& N &154&6&4&1&165 \\
+\hline
+& prob. & .05 & .16 & .26 & .31 &.23 \\
+Total & SE & .03 & .03 & .03 & .00 & .08\\
+& N &7,367&15,733&41,466&19,696&84,262 \\
+\hline
+	\end{tabular}
+	\caption{Distribution of the observations according to the marginal effect of the user being active in the period with respect to receiving an extra comment from a community manager, and of the number of comments received in the same period.}
+\end{table}

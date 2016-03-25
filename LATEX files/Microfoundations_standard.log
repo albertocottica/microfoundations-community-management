@@ -1,0 +1,579 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.19)  25 MAR 2016 12:38
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Microfoundations_standard.tex
+(./Microfoundations_standard.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@tempdima=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+)
+\c@ContinuedFloat=\count88
+)
+\c@subfigure=\count89
+\c@subtable=\count90
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/05/11 v1.16 mathematical typesetting tools
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count91
+\calc@Bcount=\count92
+\calc@Adimen=\dimen112
+\calc@Bdimen=\dimen113
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count93
+\calc@Cskip=\skip45
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen114
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen115
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen116
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks16
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks17
+\eqnshift@=\dimen117
+\alignsep@=\dimen118
+\tagshift@=\dimen119
+\tagwidth@=\dimen120
+\totwidth@=\dimen121
+\lineht@=\dimen122
+\@envbody=\toks18
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count106
+\l_MT_multwidth_dim=\dimen123
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen124
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen125
+\l_MT_above_intertext_sep=\dimen126
+\l_MT_below_intertext_sep=\dimen127
+\l_MT_above_shortintertext_sep=\dimen128
+\l_MT_below_shortintertext_sep=\dimen129
+)
+(./Microfoundations_standard.aux)
+\openout1 = `Microfoundations_standard.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen130
+\scratchbox=\box28
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen131
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks21
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+(./introduction.tex
+
+LaTeX Warning: Citation `mcwilliam2012building' on page 1 undefined on input li
+ne 3.
+
+
+LaTeX Warning: Citation `tapscott2008wikinomics' on page 1 undefined on input l
+ine 3.
+
+
+LaTeX Warning: Citation `rheingold1993virtual' on page 1 undefined on input lin
+e 3.
+
+
+LaTeX Warning: Citation `noveck2009wiki' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Citation `cottica2010wikicrazia' on page 1 undefined on input li
+ne 3.
+
+
+LaTeX Warning: Citation `rheingold1993virtual' on page 1 undefined on input lin
+e 3.
+
+
+LaTeX Warning: Citation `zhang2007expertise' on page 1 undefined on input line 
+3.
+
+
+LaTeX Warning: Citation `shirky2008here' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Citation `milligan2013patterns' on page 1 undefined on input lin
+e 3.
+
+
+LaTeX Warning: Citation `zhouSocialInfluence' on page 1 undefined on input line
+ 3.
+
+
+LaTeX Warning: Citation `shirky2008here' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Citation `rheingold1993virtual' on page 1 undefined on input lin
+e 5.
+
+
+Overfull \hbox (0.44518pt too wide) in paragraph at lines 5--6
+[]\OT1/cmr/m/n/10 Organizations run-ning on-line com-mu-ni-ties typ-i-cally em-
+ploy com-mu-nity man-
+ []
+
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
+ [2]
+
+LaTeX Warning: Citation `shirky2008here' on page 3 undefined on input line 35.
+
+
+LaTeX Warning: Citation `rheingold1993virtual' on page 3 undefined on input lin
+e 35.
+
+
+LaTeX Warning: Citation `shirky2008here' on page 3 undefined on input line 35.
+
+) (./relatedworks.tex
+
+LaTeX Warning: Citation `armstrong2000online' on page 3 undefined on input line
+ 5.
+
+
+LaTeX Warning: Citation `dholakia2004social' on page 3 undefined on input line 
+5.
+
+
+LaTeX Warning: Citation `zhou2011social' on page 3 undefined on input line 5.
+
+[3]
+
+LaTeX Warning: Citation `burt2005brokerage' on page 4 undefined on input line 7
+.
+
+
+LaTeX Warning: Citation `toral2009empirical' on page 4 undefined on input line 
+7.
+
+
+LaTeX Warning: Citation `zhang2007expertise' on page 4 undefined on input line 
+7.
+
+
+LaTeX Warning: Citation `ganley2009ties' on page 4 undefined on input line 7.
+
+
+LaTeX Warning: Citation `toral2009empirical' on page 4 undefined on input line 
+7.
+
+
+LaTeX Warning: Citation `ganley2009ties' on page 4 undefined on input line 7.
+
+
+LaTeX Warning: Citation `burt2005brokerage' on page 4 undefined on input line 9
+.
+
+
+LaTeX Warning: Citation `ganley2009ties' on page 4 undefined on input line 9.
+
+
+LaTeX Warning: Citation `kim2015group' on page 4 undefined on input line 9.
+
+
+LaTeX Warning: Citation `dholakia2004social' on page 4 undefined on input line 
+12.
+
+
+LaTeX Warning: Citation `dholakia2004social' on page 4 undefined on input line 
+15.
+
+
+LaTeX Warning: Citation `toral2009empirical' on page 4 undefined on input line 
+15.
+
+
+LaTeX Warning: Citation `rheingold1993virtual' on page 4 undefined on input lin
+e 15.
+
+
+LaTeX Warning: Citation `cottica2015online' on page 4 undefined on input line 1
+5.
+
+
+LaTeX Warning: Citation `erdds1959random' on page 4 undefined on input line 17.
+
+
+
+LaTeX Warning: Citation `moreno1937sociometry' on page 4 undefined on input lin
+e 17.
+
+
+LaTeX Warning: Citation `barabasi1999emergence' on page 4 undefined on input li
+ne 17.
+
+
+LaTeX Warning: Citation `dorogovtsev2002evolution' on page 4 undefined on input
+ line 17.
+
+
+LaTeX Warning: Citation `eckmann2004entropy' on page 4 undefined on input line 
+17.
+
+
+LaTeX Warning: Citation `rocha2011simulated' on page 4 undefined on input line 
+17.
+
+
+LaTeX Warning: Citation `holme2012temporal' on page 4 undefined on input line 1
+7.
+
+[4]
+
+LaTeX Warning: Citation `rosvall2010mapping' on page 5 undefined on input line 
+19.
+
+) (./methods.tex
+
+LaTeX Warning: Citation `hodas2014simple' on page 5 undefined on input line 5.
+
+[5]
+
+LaTeX Warning: Citation `holme2012temporal' on page 6 undefined on input line 1
+5.
+
+
+LaTeX Warning: Citation `holme2012temporal' on page 6 undefined on input line 1
+8.
+
+[6]
+
+LaTeX Warning: Citation `holme2012temporal' on page 7 undefined on input line 3
+1.
+
+
+LaTeX Warning: Citation `rosvall2010mapping' on page 7 undefined on input line 
+31.
+
+<Paper2Images/numnodes.png, id=32, 879.285pt x 639.38875pt>
+File: Paper2Images/numnodes.png Graphic file (type png)
+
+<use Paper2Images/numnodes.png>
+Package pdftex.def Info: Paper2Images/numnodes.png used on input line 36.
+(pdftex.def)             Requested size: 276.00105pt x 200.6963pt.
+
+<Paper2Images/numedges.png, id=34, 1038.88126pt x 755.82375pt>
+File: Paper2Images/numedges.png Graphic file (type png)
+
+<use Paper2Images/numedges.png>
+Package pdftex.def Info: Paper2Images/numedges.png used on input line 37.
+(pdftex.def)             Requested size: 276.00105pt x 200.79979pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+[][]
+ []
+
+
+LaTeX Warning: Citation `brin2012reprint' on page 7 undefined on input line 55.
+
+
+
+LaTeX Warning: Citation `clauset2004finding' on page 7 undefined on input line 
+56.
+
+
+LaTeX Warning: Citation `blondel2008fast' on page 7 undefined on input line 56.
+
+
+[7] [8 <./Paper2Images/numnodes.png> <./Paper2Images/numedges.png>]
+
+LaTeX Warning: Citation `cameron2005econometrics' on page 9 undefined on input 
+line 70.
+
+) (./results.tex [9]
+\c@policyWorks=\count113
+
+
+LaTeX Warning: Reference `policyWorks' on page 10 undefined on input line 16.
+
+
+LaTeX Warning: Reference `logOddsErrors' on page 10 undefined on input line 23.
+
+
+
+Overfull \hbox (105.20842pt too wide) in paragraph at lines 49--72
+ [][] 
+ []
+
+[10]
+
+LaTeX Warning: Reference `policyWorks' on page 11 undefined on input line 76.
+
+
+LaTeX Warning: Reference `logOddsErrors' on page 11 undefined on input line 80.
+
+
+[11]
+
+LaTeX Warning: Reference `logOddsErrors' on page 12 undefined on input line 86.
+
+
+<Paper2Images/PrAct_linPred.png, id=55, 879.285pt x 639.38875pt>
+File: Paper2Images/PrAct_linPred.png Graphic file (type png)
+
+<use Paper2Images/PrAct_linPred.png>
+Package pdftex.def Info: Paper2Images/PrAct_linPred.png used on input line 101.
+
+(pdftex.def)             Requested size: 276.00105pt x 200.6963pt.
+
+
+LaTeX Warning: Citation `holme2012temporal' on page 12 undefined on input line 
+106.
+
+
+Overfull \hbox (60.57231pt too wide) in paragraph at lines 112--120
+ [][] 
+ []
+
+[12]
+Overfull \hbox (69.26677pt too wide) in paragraph at lines 132--139
+ [][] 
+ []
+
+[13 <./Paper2Images/PrAct_linPred.png>] [14]
+Overfull \hbox (29.2502pt too wide) in paragraph at lines 201--238
+ [][] 
+ []
+
+) (./discussion.tex [15]
+
+LaTeX Warning: Reference `Literature survey' on page 16 undefined on input line
+ 7.
+
+
+LaTeX Warning: Citation `cottica2015online' on page 16 undefined on input line 
+9.
+
+)
+No file Microfoundations_standard.bbl.
+[16] (./Microfoundations_standard.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3834 strings out of 493089
+ 59662 string characters out of 6134842
+ 130953 words of memory out of 5000000
+ 7268 multiletter control sequences out of 15000+600000
+ 8540 words of font info for 31 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,10n,40p,1390b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Microfoundations_standard.pdf (16 pages, 283289 bytes).
+PDF statistics:
+ 119 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+
