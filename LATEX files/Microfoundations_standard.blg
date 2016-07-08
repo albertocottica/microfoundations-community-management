@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Microfoundations_standard.aux
+The style file: plain.bst
+Database file #1: Microfoundations_standard.bib
+Warning--empty note in cottica2015online
+You've used 29 entries,
+            2118 wiz_defined-function locations,
+            675 strings with 8553 characters,
+and the built_in function-call counts, 9025 in all, are:
+= -- 894
+> -- 389
+< -- 3
++ -- 159
+- -- 124
+* -- 613
+:= -- 1524
+add.period$ -- 89
+call.type$ -- 29
+change.case$ -- 142
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 348
+empty$ -- 728
+format.name$ -- 124
+if$ -- 1872
+int.to.chr$ -- 0
+int.to.str$ -- 29
+missing$ -- 35
+newline$ -- 148
+num.names$ -- 58
+pop$ -- 147
+preamble$ -- 1
+purify$ -- 120
+quote$ -- 0
+skip$ -- 238
+stack$ -- 0
+substring$ -- 585
+swap$ -- 55
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 102
+warning$ -- 1
+while$ -- 91
+width$ -- 31
+write$ -- 313
+(There was 1 warning)

@@ -1,3 +1,8 @@
+* load data
+
+use "/Users/albertocottica/github/local/microfoundations-community-management/data/stata/Panel_data_Edgeryders_processed.dta"
+
+
 * run logit estimation for margins to work 
 macro def activityVars ncommsreceivedteam ncommsreceiveduser l.activity xperience NotMeActivity ///
  TotTeamActivity l.outDegree inDegree l.fullbetweenness l.pagerank clusteringCoefficient fullavg_distance ///
@@ -101,15 +106,9 @@ summarize xb
 *  _b[l.outDegree] * l.outDegree + _b[inDegree] * inDegree + _b[l.fullbetweenness] * l.fullbetweenness + _b[l.pagerank] * l.pagerank + ///
 *  _b[clusteringCoefficient] * clusteringCoefficient + _b[fullavg_distance] * fullavg_distance + 8)) dydx (ncommsreceivedteam ncommsreceiveduser) atmeans
 
-ge mpcmrec = 1.250433 * exp(ncommsreceivedteam * 1.250433 + ncommsreceiveduser * .2148115 + l.activity + .1264396   +  xperience * ( -.01112) ///
-+ NotMeActivity * .0374573 -  TotTeamActivity * (-.0364852) +  l.outDegree * .028095 + inDegree * (-.0028557) + l.fullbetweenness * (-107.8704) ///
-+ l.pagerank * (-5.592309 ) + clusteringCoefficient *  (-.6544069) + fullavg_distance *(-4.156296) + l.fullavg_betweenness * (-9.259912) /// 
-+ LM * 8.378965 + numNodes * (-.0014035) + numEdges * ( -.000326) + 8) / ( 1 + exp(ncommsreceivedteam * 1.250433 + ncommsreceiveduser * .2148115 + l.activity + .1264396   +  xperience * ( -.01112) ///
-+ NotMeActivity * .0374573 -  TotTeamActivity * (-.0364852) +  l.outDegree * .028095 + inDegree * (-.0028557) + l.fullbetweenness * (-107.8704) ///
-+ l.pagerank * (-5.592309 ) + clusteringCoefficient *  (-.6544069) + fullavg_distance *(-4.156296) + l.fullavg_betweenness * (-9.259912) /// 
-+ LM * 8.378965 + numNodes * (-.0014035) + numEdges * ( -.000326) + 8))^2
 
-exp(3)
+
+
 
 
 

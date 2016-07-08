@@ -1,0 +1,14 @@
+[2016-05-11 11:21:26] root         INFO     parsing files /Users/albertocottica/Documents/More PhD stuff/MyPhDdata/Thesis Paper 3/Paper 3 Data/raw_json_2016-05-11/edgesense_users.json /Users/albertocottica/Documents/More PhD stuff/MyPhDdata/Thesis Paper 3/Paper 3 Data/raw_json_2016-05-11/edgesense_nodes.json /Users/albertocottica/Documents/More PhD stuff/MyPhDdata/Thesis Paper 3/Paper 3 Data/raw_json_2016-05-11/edgesense_comments.json
+[2016-05-11 11:21:26] root         INFO     Network processing - started
+[2016-05-11 11:54:09] root         INFO     parsing files /Users/albertocottica/Documents/More PhD stuff/MyPhDdata/Thesis Paper 3/Paper 3 Data/raw_json_2016-05-11/edgesense_users.json /Users/albertocottica/Documents/More PhD stuff/MyPhDdata/Thesis Paper 3/Paper 3 Data/raw_json_2016-05-11/edgesense_nodes.json /Users/albertocottica/Documents/More PhD stuff/MyPhDdata/Thesis Paper 3/Paper 3 Data/raw_json_2016-05-11/edgesense_comments.json
+[2016-05-11 11:54:09] root         INFO     Network processing - started
+[2016-05-11 11:54:09] root         INFO     file loaded
+[2016-05-11 11:54:09] root         INFO     nodes collected
+[2016-05-11 11:54:09] root         INFO     posts collected
+[2016-05-11 11:54:09] root         INFO     19847 valid comments on 21521 total
+[2016-05-11 11:54:09] root         INFO     0 multiauthor posts on 4868 total
+[2016-05-11 11:54:09] root         INFO     inactive nodes: 2324
+[2016-05-11 11:54:10] root         INFO     network built
+[2016-05-11 12:39:46] root         INFO     network metrics done
+[2016-05-11 12:40:04] root         INFO     network dumped
+[2016-05-11 12:40:04] root         INFO     Completed
