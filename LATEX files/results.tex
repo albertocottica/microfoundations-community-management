@@ -162,14 +162,14 @@ $active$  &  84262 &   .0181577  &  .1335221 \\
 \label{tab:flaw}}
 \end{table}
 
-This is caused by fact that the mean of the fixed effects $c_i$ in nonzero. To correct this, we need to add to the model a constant $\alpha$ such that: 
+This is caused by fact that the mean of the fixed effects $c_i$ is nonzero. To correct this, we need to add to the model a constant $\alpha$ such that: 
 
 \begin{equation}
 	 \frac{e^{mean(X_{i,t}\beta) + \alpha}}{1 + e^{mean(X_{i,t}\beta) + \alpha}} = \frac{\sum_{i = 1}^N \sum_{t = 1}^T active_{i,t}}{NT}
 	 \label{eq:equationAlpha}
 \end{equation}
 
-In equation \ref{eq:equationAlpha}, $active_{1,t}$ takes value 1 if user $i$ is active at period $t$, and 0 otherwise; the $x_{i,t}\beta$ are the ones already estimated. The corrected model's linear predictions are unbiased, allowing us to compute marginal effects correctly. The right-hand side of equation \ref{eq:equationAlpha} is identical to the mean of the variable $active$ in table \ref{tab:flaw}. Replacing the appropriate values from table \ref{tab:flaw} yields:
+In equation \ref{eq:equationAlpha}, $active_{i,t}$ takes value 1 if user $i$ is active at period $t$, and 0 otherwise; the $x_{i,t}\beta$ are the ones already estimated. The corrected model's linear predictions are unbiased, allowing us to compute marginal effects correctly. The right-hand side of equation \ref{eq:equationAlpha} is identical to the mean of the variable $active$ in table \ref{tab:flaw}. Replacing the appropriate values from table \ref{tab:flaw} yields:
 
 \begin{equation}
 	\frac{e^{-9.52 + \alpha}}{1 + e^{-9.52 + \alpha}} = 0.18
