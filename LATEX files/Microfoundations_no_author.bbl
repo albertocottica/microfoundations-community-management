@@ -1,0 +1,162 @@
+\begin{thebibliography}{10}
+
+\bibitem{armstrong2000real}
+Arthur Armstrong and John Hagel.
+\newblock The real value of online communities.
+\newblock {\em Knowledge and communities}, pages 85--95, 2000.
+
+\bibitem{barabasi1999emergence}
+Albert-L{\'a}szl{\'o} Barab{\'a}si and R{\'e}ka Albert.
+\newblock Emergence of scaling in random networks.
+\newblock {\em science}, 286(5439):509--512, 1999.
+
+\bibitem{blondel2008fast}
+Vincent~D Blondel, Jean-Loup Guillaume, Renaud Lambiotte, and Etienne Lefebvre.
+\newblock Fast unfolding of communities in large networks.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
+  2008(10):P10008, 2008.
+
+\bibitem{brin2012reprint}
+Sergey Brin and Lawrence Page.
+\newblock Reprint of: The anatomy of a large-scale hypertextual web search
+  engine.
+\newblock {\em Computer networks}, 56(18):3825--3833, 2012.
+
+\bibitem{burt2005brokerage}
+Ronald~S Burt.
+\newblock {\em Brokerage and closure: An introduction to social capital}.
+\newblock OUP Oxford, 2005.
+
+\bibitem{cameron2005microeconometrics}
+A~Colin Cameron and Pravin~K Trivedi.
+\newblock {\em Microeconometrics: methods and applications}.
+\newblock Cambridge university press, 2005.
+
+\bibitem{clauset2004finding}
+Aaron Clauset, Mark~EJ Newman, and Cristopher Moore.
+\newblock Finding community structure in very large networks.
+\newblock {\em Physical review E}, 70(6):066111, 2004.
+
+\bibitem{cottica2010wikicrazia}
+Alberto Cottica.
+\newblock {\em Wikicrazia: l'azione di governo al tempo della rete: capirla,
+  progettarla, viverla da protagonista}.
+\newblock Navarra, 2010.
+
+\bibitem{cottica2015online}
+Alberto Cottica, Guy Melan{\c c}on, and Benjamin Renoust.
+\newblock Online community management as social network design: testing for the
+  signature of management activities in online communities.
+\newblock {\em Studies in computational intelligence}, 693:41--54, 2016.
+
+\bibitem{dholakia2004social}
+Utpal~M Dholakia, Richard~P Bagozzi, and Lisa~Klein Pearo.
+\newblock A social influence model of consumer participation in network-and
+  small-group-based virtual communities.
+\newblock {\em International journal of research in marketing}, 21(3):241--263,
+  2004.
+
+\bibitem{dorogovtsev2002evolution}
+Sergey~N. Dorogovtsev and Jose~F.F. Mendes.
+\newblock Evolution of networks.
+\newblock {\em Advances in physics}, 51(4):1079--1187, 2002.
+
+\bibitem{eckmann2004entropy}
+Jean-Pierre Eckmann, Elisha Moses, and Danilo Sergi.
+\newblock Entropy of dialogues creates coherent structures in e-mail traffic.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 101(40):14333--14337, 2004.
+
+\bibitem{erdds1959random}
+P~ERDdS and A~R\&WI.
+\newblock On random graphs i.
+\newblock {\em Publ. Math. Debrecen}, 6:290--297, 1959.
+
+\bibitem{ganley2009ties}
+Dale Ganley and Cliff Lampe.
+\newblock The ties that bind: Social network principles in online communities.
+\newblock {\em Decision Support Systems}, 47(3):266--274, 2009.
+
+\bibitem{hodas2014simple}
+Nathan~O Hodas and Kristina Lerman.
+\newblock The simple rules of social contagion.
+\newblock {\em Scientific reports}, 4, 2014.
+
+\bibitem{holme2012temporal}
+Petter Holme and Jari Saram{\"a}ki.
+\newblock Temporal networks.
+\newblock {\em Physics reports}, 519(3):97--125, 2012.
+
+\bibitem{kim2015group}
+Kibum Kim, Woo~Seong Jo, and Beom~Jun Kim.
+\newblock Group intimacy and network formation.
+\newblock In {\em 2015 11th International Conference on Signal-Image Technology
+  \& Internet-Based Systems (SITIS)}, pages 366--370. IEEE, 2015.
+
+\bibitem{mcwilliam2012building}
+Gil McWilliam.
+\newblock Building stronger brands through online communities.
+\newblock {\em Sloan management review}, 41(3), 2012.
+
+\bibitem{milligan2013patterns}
+Colin Milligan, Allison Littlejohn, and Anoush Margaryan.
+\newblock Patterns of engagement in connectivist moocs.
+\newblock {\em MERLOT Journal of Online Learning and Teaching}, 9(2), 2013.
+
+\bibitem{moreno1937sociometry}
+Jacob~L Moreno.
+\newblock Sociometry in relation to other social sciences.
+\newblock {\em Sociometry}, 1(1/2):206--219, 1937.
+
+\bibitem{noveck2009wiki}
+Beth Simone~Simone Noveck.
+\newblock {\em Wiki government: how technology can make government better,
+  democracy stronger, and citizens more powerful}.
+\newblock Brookings Institution Press, 2009.
+
+\bibitem{rheingold1993virtual}
+Howard Rheingold.
+\newblock {\em The virtual community: Homesteading on the electronic frontier}.
+\newblock MIT press, 1993.
+
+\bibitem{rocha2011simulated}
+Luis~EC Rocha, Fredrik Liljeros, and Petter Holme.
+\newblock Simulated epidemics in an empirical spatiotemporal network of 50,185
+  sexual contacts.
+\newblock {\em PLoS Comput Biol}, 7(3):e1001109, 2011.
+
+\bibitem{rosvall2010mapping}
+Martin Rosvall and Carl~T Bergstrom.
+\newblock Mapping change in large networks.
+\newblock {\em PloS one}, 5(1):e8694, 2010.
+
+\bibitem{shirky2008here}
+Clay Shirky.
+\newblock {\em Here comes everybody: The power of organizing without
+  organizations}.
+\newblock Penguin, 2008.
+
+\bibitem{tapscott2008wikinomics}
+Don Tapscott and Anthony~D. Williams.
+\newblock {\em Wikinomics: How mass collaboration changes everything}.
+\newblock Penguin, 2008.
+
+\bibitem{toral2009empirical}
+Sergio~L Toral, M~Roc{\'\i}o Mart{\'\i}nez-Torres, Federico Barrero, and
+  Francisco Cort{\'e}s.
+\newblock An empirical study of the driving forces behind online communities.
+\newblock {\em Internet Research}, 19(4):378--392, 2009.
+
+\bibitem{zhang2007expertise}
+Jun Zhang, Mark~S Ackerman, and Lada Adamic.
+\newblock Expertise networks in online communities: structure and algorithms.
+\newblock In {\em Proceedings of the 16th international conference on World
+  Wide Web}, pages 221--230. ACM, 2007.
+
+\bibitem{zhou2011social}
+Tao Zhou.
+\newblock Understanding online community user participation: a social influence
+  perspective.
+\newblock {\em Internet Research}, 2011.
+
+\end{thebibliography}

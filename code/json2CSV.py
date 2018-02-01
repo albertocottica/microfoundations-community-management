@@ -12,7 +12,7 @@ def unixTime2Period(unixTime, start, step):
 	return p
 
 start = time.time()
-dirPath = '/Users/albertocottica/github/local/microfoundations-community-management/data/'
+dirPath = '/Users/albertocottica/github/local/microfoundations-community-management/data/Matera2019/'
 print('Crunching...')
 
 # read the file and build the essential objects
@@ -26,7 +26,7 @@ comments = jsonData['edges'] # also a list. Each item represents a comment.
 users = jsonData['nodes'] #also a list. Each item represents a user
 
 # the second file is the return for a DB query on Drupal nodes
-postsFile = open(dirPath + 'from jsonviews/edgesense_nodes_20151007_1108.json')
+postsFile = open(dirPath + 'from jsonviews/mt2019_nodes.json')
 postsStr = postsFile.read()
 postsDict = json.loads(postsStr)
 posts = postsDict['nodes'] # this is a list of 4062 nodes
@@ -127,7 +127,7 @@ for t in range (len (periods)): # replace with (len (periods)):
 wayPoint = time.time()
 print('Reorganised in ', int(wayPoint - start), ' seconds' )
 print ('Writing to file...')
-csvFile = open(dirPath + 'csv/panelData.csv', 'w')
+csvFile = open(dirPath + 'csv/mt2019panelData.csv', 'w')
 
 fieldNames = ['ID','t']
 l = list(allUsers['34'][0].keys())
